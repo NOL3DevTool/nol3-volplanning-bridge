@@ -363,7 +363,7 @@ function isVolplanPage(url) {
   const u = String(url || "");
   return /^file:/i.test(u) ||
     /^https?:\/\/(localhost|127\.0\.0\.1)(?::\d+)?(?:\/|$)/i.test(u) ||
-    /^https:\/\/xenerycenery1-pixel\.github\.io\/nol3-volplanning(?:[/?#]|$)/i.test(u);
+    /^https:\/\/nol3devtool\.github\.io\/nol3-volplanning(?:[/?#]|$)/i.test(u);
 }
 
 chrome.runtime.onConnect.addListener((port) => {
